@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">WSR</string>
+    <color name="color1">#332973</color>
+    <color name="color2">#EF3A01</color>
+    <color name="colorBorder">#A8A8A8</color>
+
+
+
+    <string name="wrldCinema">WorldCinema</string>
+
+
+    <string name="e_mail">E-mail</string>
+    <string name="password">Пароль</string>
+    <string name="first_name">Имя</string>
+    <string name="last_name">Фамилия</string>
+    <string name="password2">Повторите пароль</string>
+    <string name="login">Войти</string>
+    <string name="registration">Регистрация</string>
+    <string name="have_account">У меня уже есть аккаунт</string>
+    <string name="register">Зарегистрироваться</string>
+
+
+</resources>
