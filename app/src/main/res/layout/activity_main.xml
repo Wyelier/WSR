@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/logo" />
 
     <EditText
-        android:id="@+id/editName"
+        android:id="@+id/editEmail"
         android:layout_width="353dp"
         android:layout_height="55dp"
         android:layout_marginStart="16dp"
@@ -36,52 +36,52 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/editLastName"
+        android:id="@+id/editPass"
         android:layout_width="353dp"
         android:layout_height="55dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:background="@drawable/custom_edittext"
         android:ems="10"
         android:hint="@string/password"
-        android:inputType="textPersonName"
-        android:textColorHint="@color/colorBorder"
-        android:textColor="@color/colorBorder"
+        android:inputType="textPassword"
         android:paddingLeft="16dp"
-        android:background="@drawable/custom_edittext"
+        android:textColor="@color/colorBorder"
+        android:textColorHint="@color/colorBorder"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editName" />
+        app:layout_constraintTop_toBottomOf="@+id/editEmail" />
 
     <Button
-        android:id="@+id/btnRegister"
+        android:id="@+id/btnLog"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="5dp"
         android:backgroundTint="@color/color2"
         android:text="@string/login"
-        app:layout_constraintBottom_toTopOf="@+id/btnHaveAcc"
+        app:layout_constraintBottom_toTopOf="@+id/btnReg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btnHaveAcc"
+        android:id="@+id/btnReg"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@android:color/transparent"
         android:text="@string/registration"
         android:textColor="@color/color2"
-        android:backgroundTint="@android:color/transparent"
         app:cornerRadius="4dp"
-        app:strokeColor="@color/colorBorder"
-        app:strokeWidth="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="@color/colorBorder"
+        app:strokeWidth="1dp" />
 
     <TextView
         android:id="@+id/textView"
